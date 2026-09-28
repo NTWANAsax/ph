@@ -1,5 +1,1 @@
-module.exports = {
-  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  theme: { extend: { colors: { gold: "#D4AF37", emerald: "#1A3C34" } } },
-  plugins: []
-}
+module.exports={content:["./app/**/*.{js}","./lib/**/*.{js}"],theme:{extend:{colors:{gold:"#D4AF37",cream:"#F5E6B8"}}}}
