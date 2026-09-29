@@ -1,5 +1,2 @@
-module.exports = {
-  images: {
-    unoptimized: true
-  }
-}
+/** @type {import('next').NextConfig} */
+module.exports={reactStrictMode:true}
