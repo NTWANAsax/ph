@@ -1,1 +1,2 @@
-module.exports={content:["./app/**/*.{js}","./lib/**/*.{js}"],theme:{extend:{colors:{gold:"#D4AF37",cream:"#F5E6B8"}}}}
+/** @type {import('tailwindcss').Config} */
+module.exports = { content: ["./app/**/*.{js,ts,jsx,tsx}"], theme: { extend: {} }, plugins: [] }
